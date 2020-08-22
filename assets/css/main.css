@@ -1,0 +1,64 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: candara;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    background: #ddd;
+    opacity: 0.80;
+}
+
+.container {
+    width: 512px;
+    margin: 20% auto;
+}
+
+.login-sectione {
+    background-color: white;
+    padding: 25px;
+}
+
+h2 {
+    text-align: center;
+    font-family: verdana;
+}
+
+lebel {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+input {
+    width: 94%;
+    padding: 10px 2%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: aqua;
+    border: 1px solid aqua;
+    width: 200px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+input[type="submit"]:hover {
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.sign-up {
+    font-size: 18px;
+}

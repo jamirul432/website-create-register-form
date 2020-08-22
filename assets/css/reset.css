@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: candara;
+}
+
+body {
+    background: url(../img/pexels-photo-2098427.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.header {
+    width: 570px;
+    margin: 20% auto;
+}
+
+.box {
+    background-color: red;
+    padding: 25px;
+    bottom: 5px;
+}
+
+.box h2 {
+    text-align: center;
+    font-family: verdana;
+
+}
+
+lebel {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.box input {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+
+}
+
+p {
+    font-family: verdana;
+}
+
+.box input[type="submit"] {
+    cursor: pointer;
+    background: aqua;
+}
+
+.box input[type="submit"]:hover {
+    background: #000;
+    color: #fff;
+    transition: 1s;
+}
+
+a {
+    float: right;
+    color: #000;
+}
